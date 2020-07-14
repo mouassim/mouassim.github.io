@@ -1,0 +1,74 @@
+
+/*small phones less then 1200px*/
+
+@media only screen and (max-width:1200px ){
+    .hero-tex-box{ width: 100%;   padding: 0  5%;    top: 25%   }
+    .row{ padding: 0 2%}
+    label:last-child { margin-left: 120px}
+    header{ height: 40vh }
+
+
+/*small phones less then 1023px*/
+
+    @media only screen and (max-width:1023px )
+    {
+ body{font-size: 16px  }
+ scetion{padding: 60px 0;}
+.step-box:last-child { margin-top: 20px}
+.work-step{margin-bottom: 40px;}
+.work-step:last-of-type{ margin-bottom: 30px}
+.step-box:first-child{margin-left: 0px}
+.app-scrn{50%}  
+.city-sec ion-icon{width:10%}  
+.cit-inf{font-size:85%; margin-bottom: 8px}    
+.featr-sec ion-icon{padding-left: 48px;font-size:350% } 
+.featr-sec .long-copy{padding-bottom: 20px }
+  h3{ font-size: 81%}
+.box p{text-align:justify-all}      
+ .boxs .test-kind{font-size: 180%}
+ }
+
+
+
+/*small phones less then767x*/
+
+    @media only screen and (max-width:767px ){
+        body{font-size: 16px}
+        section{padding: 30px 0}
+        .row  {padding: 0 4%}
+        .main-nav{display: none}
+        header{height:70vh }
+        .hero-tex-box{padding: 0 10%; top: 40%}
+        h3{ font-size: 100%}
+        .col{width: 100%}
+        .featr-sec ion-icon{padding-left: 180px}
+        .step-box:first-child{padding-right: 150px}
+        .kind-test-sec{margin-top: 50px}
+        .test-img img{height: 200px}
+        .boxs .test-kind{font-size: 120%}
+        blockquote:before{font-size: 330%;  top:5px; left: 5px}
+        blockquote{margin-top: 20px}
+        cite{margin-top: 10px ; text-align:inherit}
+        .cit-inf{text-align: center}
+        .city-sec h3 { margin-left: 10px}
+        .foot-nav li,.social-med li{display: block;width: 140%;}
+        footer .span-1-of-2{width: 50%}
+        label{font-size: 110%}
+        .cit-inf{font-size:120%}
+        h3{font-size: 125%
+        
+       }
+/*small phones less then 480px*/
+
+    @media only screen and (max-width:480px ){
+        section{padding: 25px 0 }
+        body{font-size: 13px}
+         header{height:70vh }
+        .hero-tex-box{padding: 0 5%; top: 40%}
+        .featr-sec ion-icon{padding-left: 140px}
+        .step-box:first-child img {height: 250px; width: 120px; margin-left:100px}
+            .test-img img {height: 140px}
+        .boxs .test-kind{font-size: 110%}
+        
+        
+}
